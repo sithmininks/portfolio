@@ -1,0 +1,26 @@
+/* =========================================
+   SCROLL TO TOP / BACK TO TOP BUTTON
+   ========================================= */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 46px;
+  height: 46px;
+  background: var(--gradient-primary);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition-normal);
+  z-index: 999;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+}
+
+.back-to-top:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.5);
+}

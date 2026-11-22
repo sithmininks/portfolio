@@ -1,0 +1,114 @@
+/* =========================================
+   EDUCATION SECTION
+   ========================================= */
+.education-timeline {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 24px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--purple), var(--cyan));
+  border-radius: 2px;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 2.5rem;
+  position: relative;
+}
+
+.timeline-dot-wrapper {
+  position: relative;
+  flex-shrink: 0;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-dot {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--purple), var(--cyan));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-content {
+  flex: 1;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: 20px;
+  backdrop-filter: blur(16px);
+  transition: all var(--transition-normal);
+}
+
+.timeline-content:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--glow-purple);
+  transform: translateX(5px);
+}
+
+.timeline-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 50px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #4ade80;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-institution {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+}
+
+.timeline-degree {
+  font-size: 0.95rem;
+  color: var(--purple-light);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-description {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.timeline-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.timeline-tag {
+  padding: 0.3rem 0.75rem;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: 50px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
