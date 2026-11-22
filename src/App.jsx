@@ -120,18 +120,7 @@ const PROJECTS = [
     iconBg: 'rgba(6,182,212,0.15)',
     githubUrl: null,
   },
-  {
-    title: 'QR Code Attendance Management System',
-    description: 'An Android application designed to simplify attendance management using QR code scanning technology. Provides an efficient and paperless approach to tracking student or employee attendance.',
-    tech: ['Java', 'Android Studio', 'QR Code Scanner'],
-    type: 'Android App',
-    typeBadge: 'badge-android',
-    icon: '📱',
-    contribution: null,
-    gradient: 'linear-gradient(135deg, rgba(34,197,94,0.15), rgba(6,182,212,0.1))',
-    iconBg: 'rgba(34,197,94,0.15)',
-    githubUrl: null,
-  },
+  
   {
     title: 'QuizUp – Android Quiz Application',
     description: 'An interactive Android quiz application designed to provide users with a simple and engaging quiz experience. Features multiple question categories and a clean, intuitive interface.',
