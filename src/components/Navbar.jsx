@@ -45,7 +45,7 @@ export default function Navbar({ theme, toggleTheme }) {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
             >
-              Sithmini.
+              N.K.S.Sasanka
             </motion.a>
 
             <motion.div
